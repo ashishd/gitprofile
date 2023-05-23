@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'ashishd', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,57 +11,57 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'ashish-doshi-7ab0874',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'ashbkup@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'C',
+    'C++',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Python',
+    'CUDA',
+    'HIP',
+    'Bash',
     'Git',
     'Docker',
-    'PHPUnit',
+    'Singularity',
+    'Three.js',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'S3',
+    'HPC',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Curtin University',
+      position: 'Senior Research Officer',
+      from: 'January 2021',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://hive.curtin.edu.au',
     },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    /*{
+      company: '',
+      position: '',
+      from: '',
+      to: '',
+      companyLink: '',
+    },*/
   ],
   /* certifications: [
     {
@@ -71,7 +71,7 @@ const config = {
       link: 'https://example.com'
     },
   ], */
-  education: [
+  /*education: [
     {
       institution: 'Institution Name',
       degree: 'Degree',
@@ -84,7 +84,7 @@ const config = {
       from: '2012',
       to: '2014',
     },
-  ],
+  ],*/
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
@@ -104,14 +104,14 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
+  /*blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
-  },
-  googleAnalytics: {
+  },*/
+  /*googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
+  },*/
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
@@ -178,11 +178,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  /*footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> and ❤️`,*/
 };
 
 export default config;
